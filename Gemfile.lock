@@ -1,0 +1,148 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activerecord (1.6.0)
+    activesupport (4.0.1)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    atomic (1.1.14)
+    axiom-types (0.0.5)
+      descendants_tracker (~> 0.0.1)
+      ice_nine (~> 0.9)
+    backports (3.3.5)
+    builder (3.2.2)
+    childprocess (0.3.9)
+      ffi (~> 1.0, >= 1.0.11)
+    closure-compiler (1.1.10)
+    coderay (1.1.0)
+    coercible (0.2.0)
+      backports (~> 3.0, >= 3.1.0)
+      descendants_tracker (~> 0.0.1)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.3)
+    daemons (1.1.9)
+    descendants_tracker (0.0.3)
+    diff-lcs (1.2.5)
+    equalizer (0.0.7)
+    eventmachine (1.0.3)
+    execjs (2.0.2)
+    ffi (1.9.3)
+    grape (0.6.1)
+      activesupport
+      builder
+      hashie (>= 1.2.0)
+      multi_json (>= 1.3.2)
+      multi_xml (>= 0.5.2)
+      rack (>= 1.3.0)
+      rack-accept
+      rack-mount
+      virtus (>= 1.0.0)
+    haml (4.0.4)
+      tilt
+    hashie (2.0.5)
+    hike (1.2.3)
+    i18n (0.6.5)
+    ice_nine (0.10.0)
+    jasmine (1.3.2)
+      jasmine-core (~> 1.3.1)
+      rack (~> 1.0)
+      rspec (>= 1.3.1)
+      selenium-webdriver (>= 0.1.3)
+    jasmine-core (1.3.1)
+    method_source (0.8.2)
+    minitest (4.7.5)
+    multi_json (1.8.2)
+    multi_xml (0.5.5)
+    pry (0.9.12.4)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    rack (1.5.2)
+    rack-accept (0.4.5)
+      rack (>= 0.4)
+    rack-mount (0.8.3)
+      rack (>= 1.0.0)
+    rack-protection (1.5.1)
+      rack
+    rake (10.1.0)
+    rspec (2.14.1)
+      rspec-core (~> 2.14.0)
+      rspec-expectations (~> 2.14.0)
+      rspec-mocks (~> 2.14.0)
+    rspec-core (2.14.7)
+    rspec-expectations (2.14.4)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.14.4)
+    rubyzip (1.0.0)
+    sass (3.2.12)
+    selenium-webdriver (2.37.0)
+      childprocess (>= 0.2.5)
+      multi_json (~> 1.0)
+      rubyzip (~> 1.0.0)
+      websocket (~> 1.0.4)
+    sinatra (1.4.4)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    sinatra-activerecord (0.1.3)
+      sinatra (>= 0.9.4)
+    sinatra-asset-pipeline (0.3.2)
+      coffee-script
+      rake
+      sass
+      sinatra
+      sprockets
+      sprockets-helpers
+      sprockets-sass
+    slop (3.4.7)
+    sprockets (2.10.1)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-helpers (1.1.0)
+      sprockets (~> 2.0)
+    sprockets-sass (1.0.2)
+      sprockets (~> 2.0)
+      tilt (~> 1.1)
+    sqlite3 (1.3.8)
+    thin (1.6.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 1.0.0)
+      rack (>= 1.0.0)
+    thread_safe (0.1.3)
+      atomic
+    tilt (1.4.1)
+    tzinfo (0.3.38)
+    virtus (1.0.0)
+      axiom-types (~> 0.0.5)
+      coercible (~> 0.2)
+      descendants_tracker (~> 0.0.1)
+      equalizer (~> 0.0.7)
+    warden (1.2.3)
+      rack (>= 1.0)
+    websocket (1.0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord
+  closure-compiler
+  grape
+  haml
+  jasmine
+  pry
+  rspec
+  sass
+  sinatra
+  sinatra-activerecord
+  sinatra-asset-pipeline
+  sqlite3
+  thin
+  warden
